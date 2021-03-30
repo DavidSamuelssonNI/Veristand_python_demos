@@ -27,8 +27,8 @@ SystemDefinition_file_Path = System.String("C:\\Users\\dsamuels\\Documents\\Veri
 deploy_system_definition = System.Boolean(True)
 timeout = System.UInt32(500000)
 #Connects the VeriStand Gateway to one or more targets and deploys the system definition file.
-# errorCheck = factoryWorkspaceInterface.ConnectToSystem(SystemDefinition_file_Path, deploy_system_definition, timeout)
-# print(errorCheck.Code)
+ errorCheck = factoryWorkspaceInterface.ConnectToSystem(SystemDefinition_file_Path, deploy_system_definition, timeout)
+ print(errorCheck.Code)
 
 #Gets the current state of the system to which the VeriStand Gateway is connected.
 #signalArray = System.Array[System.String](["Sig1","Sig2","Sig3"])
