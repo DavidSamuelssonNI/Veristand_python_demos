@@ -7,7 +7,7 @@ Deploy.py - Example code to deploy a project in Veristand, using the built-in En
 
 * To run the demo
   
-  * Set the variable SystemDefinition_file_Path to your project path:  
+  * Set the variable SystemDefinitionFilePath to your project path:  
     Example: System.String("C:\\Users\\dsamuels\\Documents\\VeriStand Projects\\Engine Demo nr\\Engine Demo.nivssdf")
   * Run the Script:  
     Example, using pyton 3.7:`py -3.7 .\Deploy.py`
