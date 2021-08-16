@@ -1,5 +1,4 @@
 import clr
-
 import sys
 import System
 import time
@@ -23,11 +22,13 @@ factory = Factory()
 factoryWorkspaceInterface = factory.GetIWorkspace2('localhost')
 
 #SystemDefinition
-SystemDefinition_file_Path = System.String("C:\\Users\\dsamuels\\Documents\\VeriStand Projects\\Engine Demo 20\\Engine Demo.nivssdf")
-deploy_system_definition = System.Boolean(True)
+SystemDefinitionFilePath = System.String("C:\\Users\\dsamuels\\Documents\\VeriStand Projects\\Engine Demo 20\\Engine Demo.nivssdf")
+#SystemDefinitionFilePath = r"C:\Users\dsamuels\Documents\VeriStand Projects\Engine Demo 20\Engine Demo.nivssdf"
+print(SystemDefinitionFilePath)
+deploySystemDefinition = System.Boolean(True)
 timeout = System.UInt32(500000)
 #Connects the VeriStand Gateway to one or more targets and deploys the system definition file.
-errorCheck = factoryWorkspaceInterface.ConnectToSystem(SystemDefinition_file_Path, deploy_system_definition, timeout)
+errorCheck = factoryWorkspaceInterface.ConnectToSystem(SystemDefinitionFilePath, deploySystemDefinition, timeout)
 print(errorCheck.Code)
 
 #Gets the current state of the system to which the VeriStand Gateway is connected.
