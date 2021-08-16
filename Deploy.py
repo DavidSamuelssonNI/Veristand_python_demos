@@ -23,22 +23,27 @@ factory = Factory()
 factoryWorkspaceInterface = factory.GetIWorkspace2('localhost')
 
 #SystemDefinition
-SystemDefinition_file_Path = System.String("C:\\Users\\dsamuels\\Documents\\VeriStand Projects\\Engine Demo 19\\Engine Demo.nivssdf")
+SystemDefinition_file_Path = System.String("C:\\Users\\dsamuels\\Documents\\VeriStand Projects\\Engine Demo 20\\Engine Demo.nivssdf")
 deploy_system_definition = System.Boolean(True)
 timeout = System.UInt32(500000)
 #Connects the VeriStand Gateway to one or more targets and deploys the system definition file.
- errorCheck = factoryWorkspaceInterface.ConnectToSystem(SystemDefinition_file_Path, deploy_system_definition, timeout)
- print(errorCheck.Code)
+errorCheck = factoryWorkspaceInterface.ConnectToSystem(SystemDefinition_file_Path, deploy_system_definition, timeout)
+print(errorCheck.Code)
 
 #Gets the current state of the system to which the VeriStand Gateway is connected.
 #signalArray = System.Array[System.String](["Sig1","Sig2","Sig3"])
-stringToReturn1 = System.String("")
-stringToReturn2 = System.Array[System.String]([])
-stringToReturn1_r = System.String("")
-stringToReturn2_r = System.Array[System.String]([])
+systemDefinitionFile = System.String("")
+targets = System.Array[System.String]([])
+systemDefinitionFile_retured = System.String("")
+targets_returned = System.Array[System.String]([])
 enumSystemState = SystemState.Active
 enumSystemState1 = SystemState.Idle
 
 #print(type(SystemState))
-errorCheck,enumSystemState,stringToReturn1_r,stringToReturn2_r = factoryWorkspaceInterface.GetSystemState(enumSystemState,stringToReturn1,stringToReturn2)
-print(stringToReturn1_r)
+errorCheck,enumSystemState,systemDefinitionFile_retured,targets_returned = factoryWorkspaceInterface.GetSystemState(enumSystemState,systemDefinitionFile,targets)
+print("Status getSystemState,error: ",errorCheck)
+print("Status getSystemState,SystemState status: ",enumSystemState)
+print("Status getSystemState,SystemDefinitionFile Loaded : ",systemDefinitionFile_retured)
+for i in targets_returned:
+    print("Status getSystemState,Current-Target: ",i)
+
