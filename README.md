@@ -3,7 +3,7 @@
 ## Rewritten Python Demos from "NI Veristand .NET API".
 Written for Veristand 2020 but could be rewritten to work with other Veristand Versions.
 
-Deploy.py - Example code to deploy a project in Veristand, using the built-in Engine demo.
+**Deploy.py** - Example code to deploy a project in Veristand, using the built-in Engine demo.
 
 * To run the demo
   
