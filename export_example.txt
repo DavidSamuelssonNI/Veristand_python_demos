@@ -1,0 +1,4 @@
+Targets/Controller/Calculated Channels/RPM Acceleration	Targets/Controller/System Channels/Command Index
+Targets/Controller/System Channels/Absolute Time	Targets/Controller/System Channels/System Command
+Targets/Controller/Simulation Models/Models/Engine Demo/Outports/RPM	Aliases/EnginePower
+Targets/Controller/Simulation Models/Models/Engine Demo/Outports/EngineTemp	Aliases/DesiredRPM
