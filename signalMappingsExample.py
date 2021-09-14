@@ -63,21 +63,21 @@ def GetColumnsFromMappingsFile(mappingsFile = "dummy_export.txt"):
         return source, destination, e
 
 # def AppendLineToMappingsFile(source, dest):
-    '''
-    Append source and dest paths to next row in Alias mapping file.
+    # '''
+    # Append source and dest paths to next row in Alias mapping file.
 
-            Parameters:
-                    a (str): path of source
-                    b (str): alias path
-    '''
-    rows = zip(source,dest)
-    try:
-        with open('dummy_export.txt','a', newline='') as file:
-            writer = csv.writer(file, delimiter="\t")
-            for row in rows:
-                writer.writerow(row)
-    except IOError as e:
-        print(e)
+    #         Parameters:
+    #                 a (str): path of source
+    #                 b (str): alias path
+    # '''
+    # rows = zip(source,dest)
+    # try:
+    #     with open('dummy_export.txt','a', newline='') as file:
+    #         writer = csv.writer(file, delimiter="\t")
+    #         for row in rows:
+    #             writer.writerow(row)
+    # except IOError as e:
+    #     print(e)
 
 def AppendMappingPointToSystemDefinition(source, destination):
     '''
