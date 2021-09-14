@@ -3,7 +3,7 @@
 ## Rewritten Python Demos from "NI Veristand .NET API".
 Written for Veristand 2020 but could be rewritten to work with other Veristand Versions.
 
-**Deploy.py** - Example code to deploy a project in Veristand, using the built-in Engine demo.
+### **Deploy.py** - Example code to deploy a project in Veristand, using the built-in Engine demo.
 
 * To run the demo
   
@@ -14,7 +14,7 @@ Written for Veristand 2020 but could be rewritten to work with other Veristand V
   
  *Inspired by the example C# Walkthrough: Opening and Running a Project from NI Veristand .NET API documentation*
  
-**SignalMappingsExample.py** - Example code to add signals to mapping list, by exported file or signalwise.
+### **SignalMappingsExample.py** - Example code to add signals to mapping list, by exported file or signalwise.
 
 * To run the demo
 
