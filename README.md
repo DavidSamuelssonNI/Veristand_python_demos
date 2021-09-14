@@ -26,5 +26,5 @@ Written for Veristand 2020 but could be rewritten to work with other Veristand V
   * Run the Script:
     Example, using python 3.7: `py -3.7 .\SignalMappingsExample.py`
   
- Inspired by the example: https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000004AQlSAM 
+ *Inspired by the example: https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000004AQlSAM* 
   
