@@ -62,7 +62,6 @@ time.sleep(1)
 print('Writing Value, RPMSetpoint:')
 print(writeVal.Value)
 
-#MyMAPort.Write("Targets/Controller/Simulation Models/Models/Engine Demo/Parameters/b11", writeVal)
 MyMAPort.Write("Targets/Controller/Simulation Models/Models/Engine Demo/Inports/command_RPM", writeVal)
 time.sleep(1)
 
