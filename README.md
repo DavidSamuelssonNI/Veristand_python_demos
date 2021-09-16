@@ -1,7 +1,7 @@
 # Veristand_python_demos
 
 ## Rewritten Python Demos from "NI Veristand .NET API".
-Written for Veristand 2020 but could be rewritten to work with other Veristand Versions.
+Written for Veristand 2020 but could be rewritten to work with other Veristand Versions (Using Pythonnet). 
 
 ### **Deploy.py** - Example code to deploy a project in Veristand, using the built-in Engine demo.
 
@@ -28,3 +28,9 @@ Written for Veristand 2020 but could be rewritten to work with other Veristand V
   
  *Inspired by the example: https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000004AQlSAM* 
   
+### **ASAM_XIL_2020Example.py** - Example code, running built in engine demo using ASAM XIL. Setting a step response.
+
+* To run the demo
+
+  * Run the Script:  
+    Example, using pyton 3.7:`py -3.7 .\ASAM_XIL_2020Example.py`
