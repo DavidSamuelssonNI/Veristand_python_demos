@@ -1,4 +1,5 @@
 
+#For Pythonnet information read http://pythonnet.github.io/
 import clr
 import sys
 import System
@@ -21,9 +22,9 @@ factory = Factory()
 errorCheck = Error()
 
 #Get interface that contains the sendMessage() method
-systemDefinitionFilePath = r"C:\Users\dsamuels\Documents\VeriStand Projects\Engine Demo 20\Engine Demo.nivssdf"
-gatewayIpAdress = 'localhost'
-ICustomDevice = factory.GetICustomDevice(gatewayIpAdress, systemDefinitionFilePath)
+customDevicePath = r"Targets/Controller/Custom Devices/xxx"
+gatewayIpAdress = '192.168.1.155'
+ICustomDevice = factory.GetICustomDevice(gatewayIpAdress, customDevicePath)
 
 #Common to both sendMessage() methods
 command = System.String("TransmitData")
