@@ -27,7 +27,7 @@ gatewayIpAdress = '192.168.1.155'
 ICustomDevice = factory.GetICustomDevice(gatewayIpAdress, customDevicePath)
 
 #Common to both sendMessage() methods
-command = System.String("TransmitData")
+command = System.String("commandAsString")
 
 #sendMessage using Bytes
 returnedResponse = System.Array[System.Byte]([])
