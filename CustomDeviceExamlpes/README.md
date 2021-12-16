@@ -11,7 +11,7 @@ The example assumes that the project contains a CarMaker custom device. And that
 
 ## How to run
 
-Run the example by execute:
+Run the example by execute (tested on python 3.7):
 > py -3.7 .\customDeviceAddSignalExample.py
 
 ## Clarification
