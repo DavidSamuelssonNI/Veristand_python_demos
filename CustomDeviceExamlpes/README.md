@@ -2,7 +2,7 @@
 
 This example automatically adds channels to a CarMaker custom device.
 
-In contrast to the standard components of the SystemDefinition. The Custom Devices components are identified using NodeID's and GUID for their graphical components (like the Inputs directory). These identifiers are used by the example to be able to write new items to the custom device.
+In contrast to the standard components of the SystemDefinition. The Custom Devices components are identified using NodeID's and GUID for their graphical components (like the Inputs directory). These identifiers are used by the example to be able to write new channel items to the custom device.
 
 ## Prerequsite:
 
