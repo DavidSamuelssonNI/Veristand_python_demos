@@ -1,9 +1,6 @@
-import csv
-import re
 import clr
 import sys
 import System
-import time
 from System.Collections import *
 
 sys.path.append("c:\\Program Files (x86)\\National Instruments\\VeriStand 2020\\nivs.lib\\Reference Assemblies")
@@ -11,10 +8,7 @@ clr.AddReference("NationalInstruments.VeriStand.SystemDefinitionAPI")
 clr.AddReference("NationalInstruments.VeriStand.ClientAPI")
 clr.AddReference("NationalInstruments.VeriStand")
 
-from NationalInstruments.VeriStand.SystemDefinitionAPI import SystemDefinition, NodeIDUtil, Dictionary
-from NationalInstruments.VeriStand.ClientAPI import Factory, SystemState
-from NationalInstruments.VeriStand import Error
-
+from NationalInstruments.VeriStand.SystemDefinitionAPI import SystemDefinition, NodeIDUtil
 
 class CarMakerChannels:
     nodeIDUtil = NodeIDUtil()
