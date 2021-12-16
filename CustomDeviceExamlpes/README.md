@@ -4,6 +4,10 @@ This example automatically adds channels to a CarMaker custom device.
 
 In contrast to the standard components of the SystemDefinition. The Custom Devices components are identified using NodeID's and GUID for their graphical components (like the Inputs directory). These identifiers are used by the example to be able to write new channel items to the custom device.
 
+Output example:
+
+<img src="https://user-images.githubusercontent.com/86668144/146374910-da75b50c-c773-4ae2-aa56-8f21995770b7.png" alt="drawing" width="200"/>
+
 ## Prerequsite:
 
 The example assumes that the project contains a CarMaker custom device. And that you add a path to your SystemDefinition file, like:
