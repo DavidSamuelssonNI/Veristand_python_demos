@@ -10,7 +10,7 @@ Output example:
 
 ## Prerequsite:
 
-The example assumes that the project contains a CarMaker custom device. And that you add a path to your SystemDefinition file, like:
+The example assumes that the project contains a CarMaker custom device. And that you add a path to your SystemDefinition file instead of:
 > systemDefinitionFilePath = r"C:\Users\dsamuels\Documents\VeriStand Projects\Engine Demo 26\Engine Demo.nivssdf"
 
 ## How to run
