@@ -5,7 +5,7 @@ import sys
 import System
 import time
 from System.Collections import *
-from System.Collections.Generic import Dictionary as Dictionaryy
+
 sys.path.append("c:\\Program Files (x86)\\National Instruments\\VeriStand 2020\\nivs.lib\\Reference Assemblies")
 clr.AddReference("NationalInstruments.VeriStand.SystemDefinitionAPI")
 clr.AddReference("NationalInstruments.VeriStand.ClientAPI")
@@ -15,50 +15,68 @@ from NationalInstruments.VeriStand.SystemDefinitionAPI import SystemDefinition, 
 from NationalInstruments.VeriStand.ClientAPI import Factory, SystemState
 from NationalInstruments.VeriStand import Error
 
-# Open reference to SystemDefinition
 
-systemDefinitionFilePath = r"C:\Users\dsamuels\Documents\VeriStand Projects\Engine Demo 26\Engine Demo.nivssdf"
-systemDefinitionObject = SystemDefinition(systemDefinitionFilePath)
+class CarMakerChannels:
+    nodeIDUtil = NodeIDUtil()
+    def __init__(self, systemDefinitionObject):
+        self.systemDefinitionObject = systemDefinitionObject
+        self.GetCarMakerNodeID()
+        self.GetCarMakerInputChannelID()
+        self.NrOfExistingChannels()
+        self.GetCarMakerInputChannelGUID()
+        self.AddChannelToCarMaker()
+        self.SaveSystemDefFile()
 
+    # Get NodeID for the current setup CustomDevices
+    def GetCarMakerNodeID(self):
+        # List targets custom devices and their ID
+        firstTarget = self.systemDefinitionObject.Root.GetTargets().GetTargetList()[0]
+        customDevices_objects = firstTarget.GetCustomDevices().GetCustomDeviceList()
+        [print("CustomDeviceName: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in customDevices_objects]
+        #[print("CarMaker ID: ",i.NodeID) for i in customDevices_objects if i.Name == "CarMaker"]
 
-# GetChannelMappings, Read current mapped signals
+        # Find NodeID for CarMaker Custom Device
+        carMakerData = [i.NodeID for i in customDevices_objects if i.Name == "CarMaker"]
+        carMakerID = carMakerData[0]
+        self.carMakerID = carMakerID
 
-# pythonPlaceHolder,channelPathSources_returned,channelPathDestinations_returned  = systemDefinitionObject.Root.GetChannelMappings(channelPathSources,channelPathDestinations)
+    # Get ID of Input section 
+    def GetCarMakerInputChannelID(self):
+        customDeviceToEdit = self.nodeIDUtil.IDToCustomDevice(self.carMakerID)
+        [print("SectionName: ", i.Name, "NodeID: ", i.NodeID, "BaseNodeType: ", i.BaseNodeType) for i in customDeviceToEdit.GetChildren()]
+        carMakerChannelID = [i.NodeID for i in customDeviceToEdit.GetChildren() if i.Name == "Inputs"]
+        self.carMakerInputChannelID = carMakerChannelID[0]
 
-# Get NodeID for the current setup CustomDevices
-firstTarget = systemDefinitionObject.Root.GetTargets().GetTargetList()[0]
-customDevices_objects = firstTarget.GetCustomDevices().GetCustomDeviceList()
-[print("Name: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in customDevices_objects]
+    # def NrOfExistingChannels():
+    def NrOfExistingChannels(self):
+        channelList  = self.nodeIDUtil.IDToCustomDeviceSection(self.carMakerInputChannelID).GetChildren()
+        self.nrOfChannels = len(channelList)
 
-[print("CarMaker ID: ",i.NodeID) for i in customDevices_objects if i.Name == "CarMaker"]
-carMakerData = [i.NodeID for i in customDevices_objects if i.Name == "CarMaker"]
-carMakerID = carMakerData[0]
+    # # Get NodeID's of CD channels
+    def GetCarMakerInputChannelGUID(self):
+        nodeIDUtil = NodeIDUtil()
+        channelList  = nodeIDUtil.IDToCustomDeviceSection(self.carMakerInputChannelID).GetChildren()
+        #[print("Name3",i.Name,"ID3",i.NodeID,"GUID", i.TypeGUID) for i in channelList]
+        carMakerChannelGUID = [i.TypeGUID for i in channelList]
+        self.carMakerInputChannelGUID = carMakerChannelGUID[0]
 
-# Setup CustomDevice to edit, using NodeID that is read from systemdefinition
-nodeIDUtil = NodeIDUtil()
-customDeviceToEdit = nodeIDUtil.IDToCustomDevice(carMakerID)
-[print("Name: ", i.Name, "NodeID: ", i.NodeID, "BaseNodeType: ", i.BaseNodeType) for i in customDeviceToEdit.GetChildren()]
-carMakerChannelID = [i.NodeID for i in customDeviceToEdit.GetChildren() if i.Name == "Inputs"]
-carMakerInputChannelID = carMakerChannelID[0]
+    def AddChannelToCarMaker(self):
+        # Add Channel to section. Alla kanaler i Iput sektionen har samma GUID
+        newItem = System.Boolean(False)
+        index = self.nrOfChannels+1
+        indexedChannelName = "myChannel_"+"{}".format(index)
+        CD_channel, newItem_out  = self.nodeIDUtil.IDToCustomDeviceSection(self.carMakerInputChannelID).AddCustomDeviceChannelIfNotFound(indexedChannelName,self.carMakerInputChannelGUID,newItem)
+        print("Channel with name:", CD_channel.Name, " added")
 
-# Get NodeID's of CD channels
-test3  = nodeIDUtil.IDToCustomDeviceSection(carMakerInputChannelID).GetChildren()
-[print("Name3",i.Name,"ID3",i.NodeID,"GUID", i.TypeGUID) for i in test3]
-carMakerChannelGUID = [i.TypeGUID for i in test3]
-carMakerInputChannelGUID = carMakerChannelGUID[0]
+    def SaveSystemDefFile(self):
+        error = System.String("")
+        error_out = System.String("")
+        status, error_out = systemDefinitionObject.SaveSystemDefinitionFile(error)
+        print("SystemDefinitionFile Saved with status: ",status,error_out)
 
-print(len(test3))
-# Add Channel to section. Alla kanaler i Iput sektionen har samma GUID
-newItem = System.Boolean(False)
+if __name__ == '__main__':
+    systemDefinitionFilePath = r"C:\Users\dsamuels\Documents\VeriStand Projects\Engine Demo 26\Engine Demo.nivssdf"
+    systemDefinitionObject = SystemDefinition(systemDefinitionFilePath)
 
-#hmm = re.findall("[0-9]","test3")
-#aNewChannel = "aNewChannel"+"{}".format()
-index = len(test3)+1
-indexedChannelName = "myChannel_"+"{}".format(index)
-CD_channel, newItem_out  = nodeIDUtil.IDToCustomDeviceSection(carMakerInputChannelID).AddCustomDeviceChannelIfNotFound(indexedChannelName,carMakerInputChannelGUID,newItem)
-print(CD_channel.Name)
-
-error = System.String("")
-error_out = System.String("")
-status, error_out = systemDefinitionObject.SaveSystemDefinitionFile(error)
-print(status,error_out)
+    carMakerChannels = CarMakerChannels(systemDefinitionObject)
+    #print(dir(carMakerChannels))
