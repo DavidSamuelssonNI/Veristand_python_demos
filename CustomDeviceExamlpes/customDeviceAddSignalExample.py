@@ -40,13 +40,11 @@ class CarMakerChannels:
         [print("SectionName: ", i.Name, "NodeID: ", i.NodeID, "BaseNodeType: ", i.BaseNodeType) for i in customDeviceToEdit.GetChildren()]
         carMakerChannelID = [i.NodeID for i in customDeviceToEdit.GetChildren() if i.Name == "Inputs"]
         self.carMakerInputChannelID = carMakerChannelID[0]
-
-    # def NrOfExistingChannels():
+        
     def NrOfExistingChannels(self):
         channelList  = self.nodeIDUtil.IDToCustomDeviceSection(self.carMakerInputChannelID).GetChildren()
         self.nrOfChannels = len(channelList)
 
-    # # Get NodeID's of CD channels
     def GetCarMakerInputChannelGUID(self):
         nodeIDUtil = NodeIDUtil()
         channelList  = nodeIDUtil.IDToCustomDeviceSection(self.carMakerInputChannelID).GetChildren()
