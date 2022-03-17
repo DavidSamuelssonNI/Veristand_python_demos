@@ -1,7 +1,8 @@
 # Veristand_python_demos
 
 ## Rewritten Python Demos from "NI Veristand .NET API".
-Written for Veristand 2020 but could be rewritten to work with other Veristand Versions (Using Pythonnet). 
+Written for Veristand 2020 but could be rewritten to work with other Veristand Versions (Using Pythonnet).  
+https://github.com/pythonnet/pythonnet/wiki/Installation  
 
 ### **Deploy.py** - Example code to deploy a project in Veristand, using the built-in Engine demo.
 
