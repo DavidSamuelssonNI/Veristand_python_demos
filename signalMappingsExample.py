@@ -14,9 +14,11 @@ from NationalInstruments.VeriStand.SystemDefinitionAPI import SystemDefinition, 
 from NationalInstruments.VeriStand.ClientAPI import Factory, SystemState
 from NationalInstruments.VeriStand import Error
 
+# See http://pythonnet.github.io/ for PyhtonNet documentation
+
 # Open reference to SystemDefinition
 
-systemDefinitionFilePath = r"C:\Users\dsamuels\Documents\VeriStand Projects\Engine Demo 20\Engine Demo.nivssdf"
+systemDefinitionFilePath = r"C:\Users\dsamuels\Documents\VeriStand Projects\Engine Demo 2\Engine Demo.nivssdf"
 systemDefinitionObject = SystemDefinition(systemDefinitionFilePath)
 
 channelPathSources = System.Array[System.String]([])
@@ -26,7 +28,7 @@ channelPathDestinations_returned = System.Array[System.String]([])
 
 # GetChannelMappings, Read current mapped signals
 
-IronPythonPlaceHolder,channelPathSources_returned,channelPathDestinations_returned  = systemDefinitionObject.Root.GetChannelMappings(channelPathSources,channelPathDestinations)
+functionReturn,channelPathSources_returned,channelPathDestinations_returned  = systemDefinitionObject.Root.GetChannelMappings(channelPathSources,channelPathDestinations)
 
 # for i in channelPathSources_returned:
 #     print("channelPathSources_returned: ",i)
@@ -93,8 +95,8 @@ def AppendMappingPointToSystemDefinition(source, destination):
 
     source_.append(source)
     destination_.append(destination)
-    IronPythonPlaceHolder, error_out = systemDefinitionObject.Root.AddChannelMappings(source_,destination_,error_)
-    print(IronPythonPlaceHolder,error_out)
+    functionReturn, error_out = systemDefinitionObject.Root.AddChannelMappings(source_,destination_,error_)
+    print(functionReturn,error_out)
     print("Datapoint written to systemdefinitionfile")
 
 def WriteMappingsFileToSystemDefinition(mappingsFile):
@@ -106,7 +108,7 @@ def WriteMappingsFileToSystemDefinition(mappingsFile):
     '''
     source, destination, error1 = GetColumnsFromMappingsFile(mappingsFile)
     error_ = Error()
-    IronPythonPlaceHolder, error_out = systemDefinitionObject.Root.AddChannelMappings(source,destination,error_)
+    functionReturn, error_out = systemDefinitionObject.Root.AddChannelMappings(source,destination,error_)
 
     print("Mappings file written to systemdefinitionfile")
 
@@ -114,7 +116,7 @@ def SaveSystemDefinition():
     # Save SystemDefinitionFile
     error = System.String("")
     error_out = System.String("")
-    IronPythonPlaceHolder, error_out = systemDefinitionObject.SaveSystemDefinitionFile(error)
+    functionReturn, error_out = systemDefinitionObject.SaveSystemDefinitionFile(error)
 
     if (not error_out):
         print("File saved")
@@ -122,6 +124,7 @@ def SaveSystemDefinition():
         print(error_out)
 
 # MAIN
+
 if __name__ == "__main__":
     testSource = "Targets/Controller/System Channels/Absolute Time"
     testDestination = "Targets/Controller/System Channels/System Command"
