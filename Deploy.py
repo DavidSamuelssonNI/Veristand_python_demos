@@ -25,6 +25,7 @@ factoryWorkspaceInterface = factory.GetIWorkspace2('localhost')
 SystemDefinitionFilePath = System.String("C:\\Users\\dsamuels\\Documents\\VeriStand Projects\\Engine Demo 20\\Engine Demo.nivssdf")
 #SystemDefinitionFilePath = r"C:\Users\dsamuels\Documents\VeriStand Projects\Engine Demo 20\Engine Demo.nivssdf"
 print(SystemDefinitionFilePath)
+
 deploySystemDefinition = System.Boolean(True)
 timeout = System.UInt32(500000)
 #Connects the VeriStand Gateway to one or more targets and deploys the system definition file.
@@ -41,10 +42,10 @@ enumSystemState = SystemState.Active
 enumSystemState1 = SystemState.Idle
 
 #print(type(SystemState))
-errorCheck,enumSystemState,systemDefinitionFile_retured,targets_returned = factoryWorkspaceInterface.GetSystemState(enumSystemState,systemDefinitionFile,targets)
-print("Status getSystemState,error: ",errorCheck)
-print("Status getSystemState,SystemState status: ",enumSystemState)
-print("Status getSystemState,SystemDefinitionFile Loaded : ",systemDefinitionFile_retured)
+errorCheck,enumSystemState,systemDefinitionFile_retured,targets_returned = factoryWorkspaceInterface.GetSystemState(enumSystemState, systemDefinitionFile, targets)
+print("Status getSystemState,error: ", errorCheck)
+print("Status getSystemState,SystemState status: ", enumSystemState)
+print("Status getSystemState,SystemDefinitionFile Loaded : ", systemDefinitionFile_retured)
 for i in targets_returned:
-    print("Status getSystemState,Current-Target: ",i)
+    print("Status getSystemState,Current-Target: ", i)
 
