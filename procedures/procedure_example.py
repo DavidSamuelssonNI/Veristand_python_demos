@@ -57,7 +57,7 @@ def AddProcedureStep():
 
     procedures = GetProcedures()
     basenode_channel = GetSystemChannels()
-    Name = System.String("var3")
+    Name = System.String("var")
     Desc = System.String("desc")
     error = Error()
     value = System.Double(0)
