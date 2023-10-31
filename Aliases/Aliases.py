@@ -7,6 +7,7 @@ import argparse
 import shutil
 import logging
 import os
+from enum import Enum
 from System.Collections import *
 
 sys.path.append("c:\\Program Files\\National Instruments\\VeriStand 2023\\nivs.lib\\Reference Assemblies")
@@ -118,21 +119,28 @@ class AliasController:
         error_out = Error()
         success =  System.Boolean(False)
         nodeIDUtil = NodeIDUtil()
-        cdname = System.Array[System.String]([])
-        cdvalue = System.Array[System.Double]([])
         custom_devices = self._first_target.GetCustomDevices().GetCustomDeviceList()
         custom_device_vcom = [i.NodeID for i in custom_devices if i.Name == "VCOM"]
         custom_device_vcom_id = custom_device_vcom[0]
-        
+
+
+        ECU_Status = 0
+        ECU_ADAS = 1
+        ECU_DAQ = 2
+        FRAMES = 0 # only one list of frames per ECU
+        CAN_MESSAGE = 0
+
+        #ta length av ECU,CAN_message och signals
+
         ECU = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()
         [print("ECU: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in ECU]
-        frames = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[1].GetChildren()
+        frames = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[ECU_ADAS].GetChildren()
         [print("frames: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in frames]
         #Can frame
-        CAN_message = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[1].GetChildren()[0].GetChildren()
+        CAN_message = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[ECU_ADAS].GetChildren()[FRAMES].GetChildren()
         [print("CAN_message: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in CAN_message]
         #Custom device channel ids
-        signals = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[1].GetChildren()[0].GetChildren()[0].GetChildren()
+        signals = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[ECU_ADAS].GetChildren()[FRAMES].GetChildren()[CAN_MESSAGE].GetChildren()
         nr_of_signals = len(signals)
         print(nr_of_signals)
         [print("signals: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in signals]
