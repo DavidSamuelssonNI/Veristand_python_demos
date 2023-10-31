@@ -85,30 +85,26 @@ class AliasController:
         else:
             print(error_out)
 
-    def add_aliases(self):
-
-        ## Cust device
-        # CD - Map1 (Childx1) list of Map1
-        #          map2 (Childx2) list of Map2, (Map1()[x]) x = map to get list of
-        #               map3 (childx3) list of Map3, (Map2()[x]) x = map to get list of
-        test3 = self._first_target.GetCustomDevices().GetCustomDeviceList()[0].GetChildren()
-        [print("Test3: ", i.Name,i.Description ) for i in test3]
-        test4 = self._first_target.GetCustomDevices().GetCustomDeviceList()[0].GetChildren()[1].GetChildren()
-        [print("Test4: ", i.Name, ) for i in test4]
-        test5 = self._first_target.GetCustomDevices().GetCustomDeviceList()[0].GetChildren()[1].GetChildren()[0].GetChildren()
-        [print("Test5: ", i.Name, i.NodePath ) for i in test5]
-
+    def add_aliases_folder(self):
         error = Error()
         error_out = Error()
         success =  System.Boolean(False)
-        CD_folder_name_1 = System.String(test3[1].Name)
-        CD_folder_name_2 = System.String(test3[2].Name)
-        CD_folder_desc_1 = System.String(test3[1].Description)
-        CD_folder_desc_2 = System.String(test3[2].Description)
-        print("sgda",not str(CD_folder_desc_1).strip()) #string empty or only whitespaces
+
+        ECU = self._first_target.GetCustomDevices().GetCustomDeviceList()[0].GetChildren()
+        [print("ECU: ", i.Name,i.Description ) for i in ECU]
+        frames = self._first_target.GetCustomDevices().GetCustomDeviceList()[0].GetChildren()[1].GetChildren()
+        [print("frames: ", i.Name, ) for i in frames]
+        CAN_messages = self._first_target.GetCustomDevices().GetCustomDeviceList()[0].GetChildren()[1].GetChildren()[0].GetChildren()
+        [print("CAN_messages: ", i.Name, i.NodePath ) for i in CAN_messages]
+
+        CD_folder_name_1 = System.String(ECU[1].Name) 
+        CD_folder_name_2 = System.String(ECU[2].Name)
+        CD_folder_desc_1 = System.String(ECU[1].Description)
+        CD_folder_desc_2 = System.String(ECU[2].Description)
+        #print("sgda",not str(CD_folder_desc_1).strip()) #string empty or only whitespaces
         print("DESC:{}".format(CD_folder_name_1), "DESC:{}".format(CD_folder_name_2))
         print("DESC:{}".format(CD_folder_desc_1), "DESC:{}".format(CD_folder_desc_2))
-        # Add alias
+
         aliases = self._system_definition_object.Root.GetAliases().GetAliasesList()
         [print("Aliases: ", i.Name, i.NodePath) for i in aliases]
         alias_folder_1 = AliasFolder(CD_folder_name_1,"test")
@@ -117,38 +113,36 @@ class AliasController:
         print(success,error)
         success, error_out = self._system_definition_object.Root.GetAliases().AddAliasFolder(alias_folder_2,error)
 
+    def add_aliases(self):
+        error = Error()
+        error_out = Error()
+        success =  System.Boolean(False)
+        nodeIDUtil = NodeIDUtil()
         cdname = System.Array[System.String]([])
         cdvalue = System.Array[System.Double]([])
-        # test6  = self._first_target.GetCustomDevices().GetCustomDeviceList()[0].GetChildren()
-        # #test6 = [i.NodeID for i in customDevices_objects if i.Name == "CarMaker"]
-        # [print("sdg: ",i.Name, i.NodeID, i.NodePath) for i in test6]
-
-        nodeIDUtil = NodeIDUtil()
         custom_devices = self._first_target.GetCustomDevices().GetCustomDeviceList()
-        [print("CustomDeviceName: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in custom_devices]
-        
         custom_device_vcom = [i.NodeID for i in custom_devices if i.Name == "VCOM"]
         custom_device_vcom_id = custom_device_vcom[0]
         
-        custom_device_channel_list = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()
-        [print("CustomDeviceChan: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in custom_device_channel_list]
-        custom_device_channel_list_2 = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[1].GetChildren()
-        [print("CustomDeviceChan2: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in custom_device_channel_list_2]
+        ECU = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()
+        [print("ECU: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in ECU]
+        frames = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[1].GetChildren()
+        [print("frames: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in frames]
         #Can frame
-        custom_device_channel_list_3 = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[1].GetChildren()[0].GetChildren()
-        [print("CustomDeviceChan3: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in custom_device_channel_list_3]
+        CAN_message = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[1].GetChildren()[0].GetChildren()
+        [print("CAN_message: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in CAN_message]
         #Custom device channel ids
-        custom_device_channel_list_4 = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[1].GetChildren()[0].GetChildren()[0].GetChildren()
-        [print("CustomDeviceChan4: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in custom_device_channel_list_4]
-        #test id
-        # hmm = System.UInt64(36)
-        # custom_device_channel_obj = nodeIDUtil.IDToCustomDeviceChannel(hmm)
+        signals = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[1].GetChildren()[0].GetChildren()[0].GetChildren()
+        nr_of_signals = len(signals)
+        print(nr_of_signals)
+        [print("signals: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in signals]
+        #save to matrix list or dictionary or something
 
-        # error_out = self._system_definition_object.Root.GetAliases().AddNewAliasByReference("name","desc",custom_device_channel_obj,error)
-        # print("error_out", error_out)
-
-        myalias = Alias("name","desc",custom_device_channel_list_4[0].NodePath)
-        success, error_out = self._system_definition_object.Root.GetAliases().AddAlias(myalias,error)
+        #loop over
+        for sig in signals:
+            myalias = Alias(sig.Name,sig.NodePath,sig.NodePath)
+            success, error_out = self._system_definition_object.Root.GetAliases().AddAlias(myalias,error)
+            success, error_out = self._system_definition_object.Root.GetAliases().GetAliasFolderList()[1].AddAlias(myalias,error) # add to folder
         print(success,error_out)
         self.SaveSystemDefinition()
         #går det att använda en custom_device_channel_obj i AddNewAliasByReference? stödjer den den typen?
@@ -170,6 +164,7 @@ if __name__ == "__main__":
     shutil.copyfile(args.SysDef, dst)
     
     aliasObject.create_system_definition(args.SysDef)
+    aliasObject.add_aliases_folder()
     aliasObject.add_aliases()
 
     # print("Copied file: {}".format(dst), "\n")
