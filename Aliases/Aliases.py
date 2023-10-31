@@ -130,7 +130,7 @@ class AliasController:
         FRAMES = 0 # only one list of frames per ECU
         CAN_MESSAGE = 0
 
-        #ta length av ECU,CAN_message och signals
+        #ta length av ECU,CAN_message och signals, skapa matrix, dubbel loop ECU, CAN_message -> array of lists with signals
 
         ECU = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()
         [print("ECU: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in ECU]
