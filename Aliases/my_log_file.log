@@ -1,0 +1,1548 @@
+2023-11-01 11:25:56,942 [INFO]: Creating System Definition
+2023-11-01 11:25:57,934 [INFO]: File saved
+2023-11-01 11:25:57,948 [INFO]: Alias folders created successfully
+2023-11-01 11:25:57,948 [INFO]: Adding aliases
+2023-11-01 11:25:57,951 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:25:57,956 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,956 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,956 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:25:57,965 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,965 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,965 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:25:57,965 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,965 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,965 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:25:57,965 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,965 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,966 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,967 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:25:57,967 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,967 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,967 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:25:57,967 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,967 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,967 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:25:57,967 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,967 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,967 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:25:57,967 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,967 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,967 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:25:57,967 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,968 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,968 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:25:57,968 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,968 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:25:57,968 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,968 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:25:57,968 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,968 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:25:57,969 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,969 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:25:57,969 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,969 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:25:57,969 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,969 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:25:57,969 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,969 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:25:57,970 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,970 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:25:57,970 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,970 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:25:57,970 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,970 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:25:57,970 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,970 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:25:57,970 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,970 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:25:57,970 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,970 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:25:57,970 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,970 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:25:57,971 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,971 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:25:57,971 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,971 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:25:57,971 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,971 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:25:57,971 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:25:57,976 [INFO]: File saved
+2023-11-01 11:26:39,586 [INFO]: Creating System Definition
+2023-11-01 11:26:40,530 [INFO]: File saved
+2023-11-01 11:26:40,544 [INFO]: Alias folders created successfully
+2023-11-01 11:26:40,544 [INFO]: Adding aliases
+2023-11-01 11:26:40,546 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:26:40,551 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,551 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,551 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:26:40,551 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,551 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,551 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:26:40,551 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,551 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,551 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,552 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ECU: ECU_ADAS, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,553 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,554 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:26:40,554 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,554 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:26:40,554 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,554 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:26:40,554 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,554 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:26:40,554 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,554 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:26:40,554 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,554 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:26:40,555 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,555 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:26:40,555 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,555 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:26:40,556 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,556 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:26:40,556 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,556 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:26:40,556 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,556 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:26:40,556 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,556 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:26:40,556 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,557 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:26:40,557 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,557 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:26:40,557 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,557 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:26:40,558 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,558 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:26:40,558 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,558 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:26:40,558 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,558 [INFO]: ECU: ECU_DAQ, Frame: frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:26:40,558 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:26:40,564 [INFO]: File saved
+2023-11-01 11:30:04,914 [INFO]: Creating System Definition
+2023-11-01 11:30:05,913 [INFO]: File saved
+2023-11-01 11:30:05,927 [INFO]: Alias folders created successfully
+2023-11-01 11:30:05,927 [INFO]: Adding aliases
+2023-11-01 11:30:05,932 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:30:05,937 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:30:05,937 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:30:05,937 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,937 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,937 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:30:05,937 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:30:05,939 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,939 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:30:05,939 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:30:05,939 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:30:05,940 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,940 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,940 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:30:05,940 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:30:05,940 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:30:05,940 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:30:05,940 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:30:05,940 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:30:05,940 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:30:05,940 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,940 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:30:05,940 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:30:05,941 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:30:05,941 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:30:05,941 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:30:05,941 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,941 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:30:05,941 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,942 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:30:05,942 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,942 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:30:05,942 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,942 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:30:05,942 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:30:05,942 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:30:05,942 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:30:05,942 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:30:05,942 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,942 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:30:05,942 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,942 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:30:05,942 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,943 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:30:05,943 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:30:05,943 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:30:05,943 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:30:05,943 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:30:05,943 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:30:05,945 [INFO]: File saved
+2023-11-01 11:31:02,209 [INFO]: Creating System Definition
+2023-11-01 11:31:03,160 [INFO]: File saved
+2023-11-01 11:31:03,173 [INFO]: Alias folders created successfully
+2023-11-01 11:31:03,173 [INFO]: Adding aliases
+2023-11-01 11:31:03,179 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:31:03,184 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,185 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,185 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:31:03,185 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,185 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,185 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:31:03,185 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,185 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,185 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:31:03,185 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,185 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,185 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:31:03,185 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,185 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,185 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,186 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:31:03,187 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,187 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,187 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:31:03,187 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,187 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,187 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:31:03,187 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,187 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,187 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:31:03,187 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,187 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:31:03,187 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,188 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:31:03,188 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,188 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:31:03,188 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,188 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:31:03,188 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,188 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:31:03,188 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,188 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:31:03,188 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,188 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:31:03,188 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,189 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:31:03,189 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,189 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:31:03,189 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,189 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:31:03,189 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,189 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:31:03,189 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,189 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:31:03,189 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,189 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:31:03,189 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,189 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:31:03,190 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,190 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:31:03,190 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,190 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:31:03,190 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,190 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:31:03,190 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:31:03,193 [INFO]: File saved
+2023-11-01 11:32:05,788 [INFO]: Creating System Definition
+2023-11-01 11:32:06,806 [INFO]: File saved
+2023-11-01 11:32:06,819 [INFO]: Alias folders created successfully
+2023-11-01 11:32:06,820 [INFO]: Adding aliases
+2023-11-01 11:32:06,826 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:32:06,831 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,831 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,831 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:32:06,831 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,831 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,831 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:32:06,831 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,831 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,831 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:32:06,831 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,831 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,831 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:32:06,831 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,831 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,831 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:32:06,832 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,832 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,832 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:32:06,832 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,832 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,832 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:32:06,832 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,832 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,832 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:32:06,832 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,832 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,832 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:32:06,832 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,832 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,832 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:32:06,833 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,833 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,833 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:32:06,833 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,833 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,833 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:32:06,833 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,833 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,833 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:32:06,833 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,833 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,833 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:32:06,833 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,833 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,833 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:32:06,834 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,834 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:32:06,834 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,834 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:32:06,834 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,834 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:32:06,834 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,835 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:32:06,835 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,835 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:32:06,835 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,835 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:32:06,835 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,835 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:32:06,835 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,835 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:32:06,836 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,836 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:32:06,836 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,836 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:32:06,836 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,836 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:32:06,836 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,836 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:32:06,836 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,836 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:32:06,836 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,836 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:32:06,836 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,836 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:32:06,836 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,837 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:32:06,837 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,837 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:32:06,837 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:32:06,840 [INFO]: File saved
+2023-11-01 11:33:12,366 [INFO]: Creating System Definition
+2023-11-01 11:33:13,357 [INFO]: File saved
+2023-11-01 11:33:13,371 [INFO]: Alias folders created successfully
+2023-11-01 11:33:13,371 [INFO]: Adding aliases
+2023-11-01 11:33:13,377 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:33:13,382 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,382 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,382 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:33:13,382 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,382 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,382 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:33:13,382 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,383 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,384 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,385 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:33:13,385 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,385 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,385 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:33:13,385 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,385 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:33:13,385 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,385 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:33:13,385 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,385 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:33:13,385 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,385 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:33:13,386 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,386 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:33:13,386 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,386 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:33:13,386 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,386 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:33:13,386 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,386 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:33:13,386 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,386 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:33:13,386 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,386 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:33:13,386 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,386 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:33:13,386 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,387 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:33:13,387 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,387 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:33:13,387 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,387 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:33:13,387 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,387 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:33:13,387 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,387 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:33:13,387 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,387 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:33:13,387 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:13,390 [INFO]: File saved
+2023-11-01 11:33:30,439 [INFO]: Creating System Definition
+2023-11-01 11:33:31,372 [INFO]: File saved
+2023-11-01 11:33:31,385 [INFO]: Alias folders created successfully
+2023-11-01 11:33:31,385 [INFO]: Adding aliases
+2023-11-01 11:33:31,392 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:33:31,397 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,397 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,398 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:33:31,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,398 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:33:31,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,398 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:33:31,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,398 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:33:31,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,398 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:33:31,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,399 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:33:31,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,399 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:33:31,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,399 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:33:31,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,399 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:33:31,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,399 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:33:31,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,400 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:33:31,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,400 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:33:31,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,400 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:33:31,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,400 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:33:31,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,401 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:33:31,401 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,401 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:33:31,401 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,401 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:33:31,401 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,402 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:33:31,402 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,402 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:33:31,402 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,402 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:33:31,402 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,402 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:33:31,402 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,402 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:33:31,402 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,402 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:33:31,402 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,402 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:33:31,403 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,403 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:33:31,403 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,403 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:33:31,403 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,403 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:33:31,403 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,403 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:33:31,403 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,403 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:33:31,403 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,403 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:33:31,403 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,403 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:33:31,404 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,404 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:33:31,404 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:31,407 [INFO]: File saved
+2023-11-01 11:33:41,373 [INFO]: Creating System Definition
+2023-11-01 11:33:42,331 [INFO]: File saved
+2023-11-01 11:33:42,345 [INFO]: Alias folders created successfully
+2023-11-01 11:33:42,345 [INFO]: Adding aliases
+2023-11-01 11:33:42,353 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:33:42,358 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,358 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,358 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:33:42,358 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,359 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,359 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:33:42,359 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,359 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,359 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:33:42,359 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,359 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,359 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:33:42,359 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,359 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,359 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:33:42,359 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,359 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,359 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:33:42,359 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,360 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,362 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:33:42,362 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,362 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:33:42,362 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,362 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:33:42,362 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,362 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:33:42,363 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,363 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:33:42,363 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,363 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:33:42,363 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,363 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:33:42,363 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,363 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:33:42,363 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,363 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:33:42,364 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,364 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:33:42,364 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,364 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:33:42,364 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,364 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:33:42,364 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,364 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:33:42,364 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,364 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:33:42,364 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,364 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:33:42,365 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,365 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:33:42,365 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,365 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:33:42,365 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,365 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:33:42,365 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:42,368 [INFO]: File saved
+2023-11-01 11:33:57,646 [INFO]: Creating System Definition
+2023-11-01 11:33:58,598 [INFO]: File saved
+2023-11-01 11:33:58,612 [INFO]: Alias folders created successfully
+2023-11-01 11:33:58,612 [INFO]: Adding aliases
+2023-11-01 11:33:58,620 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:33:58,626 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,626 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,626 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:33:58,627 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,627 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,627 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:33:58,627 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,627 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,627 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:33:58,627 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,627 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,627 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:33:58,627 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,627 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,627 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:33:58,628 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,628 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,628 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:33:58,628 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,628 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,628 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:33:58,628 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,628 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,628 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:33:58,628 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,628 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,628 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:33:58,628 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,628 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,628 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:33:58,629 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,629 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,629 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:33:58,629 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,629 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,629 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:33:58,629 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,629 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,629 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:33:58,629 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,629 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,629 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:33:58,629 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,629 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,630 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:33:58,631 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,631 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:33:58,631 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,631 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:33:58,631 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,631 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:33:58,631 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,631 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:33:58,631 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,631 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:33:58,631 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,631 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:33:58,632 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,632 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:33:58,632 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,632 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:33:58,632 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,632 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:33:58,632 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,632 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:33:58,632 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,632 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:33:58,632 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,632 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:33:58,632 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,632 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:33:58,633 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,633 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:33:58,633 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,633 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:33:58,633 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,633 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:33:58,633 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,633 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:33:58,633 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:33:58,637 [INFO]: File saved
+2023-11-01 11:34:27,772 [INFO]: Creating System Definition
+2023-11-01 11:34:28,732 [INFO]: File saved
+2023-11-01 11:34:28,746 [INFO]: Alias folders created successfully
+2023-11-01 11:34:28,746 [INFO]: Adding aliases
+2023-11-01 11:34:28,753 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:34:28,758 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,758 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,758 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:34:28,759 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,759 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,759 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:34:28,759 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,759 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,759 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:34:28,759 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,759 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,759 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:34:28,759 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,759 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,760 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:34:28,760 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,760 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,760 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:34:28,760 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,760 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,760 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:34:28,760 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,760 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,760 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:34:28,760 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,760 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,760 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:34:28,761 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,761 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,761 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:34:28,761 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,761 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,761 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:34:28,761 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,761 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,762 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:34:28,762 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,762 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,762 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:34:28,762 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,762 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,762 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:34:28,762 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,762 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,764 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:34:28,764 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,764 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:34:28,764 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,764 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:34:28,764 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,764 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:34:28,764 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,764 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:34:28,764 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,764 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:34:28,765 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,765 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:34:28,765 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,765 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:34:28,766 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,766 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:34:28,766 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,766 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:34:28,766 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,766 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:34:28,766 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,766 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:34:28,766 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,766 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:34:28,767 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,767 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:34:28,767 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,767 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:34:28,767 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,767 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:34:28,767 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,767 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:34:28,767 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,767 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:34:28,767 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:28,770 [INFO]: File saved
+2023-11-01 11:34:55,150 [INFO]: Creating System Definition
+2023-11-01 11:34:56,107 [INFO]: File saved
+2023-11-01 11:34:56,121 [INFO]: Alias folders created successfully
+2023-11-01 11:34:56,121 [INFO]: Adding aliases
+2023-11-01 11:34:56,128 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:34:56,133 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,133 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,134 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:34:56,134 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,134 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,134 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:34:56,135 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,135 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,135 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:34:56,135 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,135 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,135 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:34:56,135 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,136 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,136 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:34:56,136 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,136 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,136 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:34:56,136 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,137 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,137 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:34:56,137 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,137 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,143 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:34:56,143 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,143 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,143 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:34:56,143 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,143 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,143 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:34:56,145 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,145 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,146 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:34:56,146 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,146 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,146 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:34:56,147 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,147 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,147 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:34:56,147 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,147 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,147 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:34:56,147 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,149 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,150 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:34:56,151 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,151 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:34:56,151 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,151 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:34:56,152 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,152 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:34:56,152 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,153 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:34:56,154 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,154 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:34:56,154 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,155 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:34:56,155 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,155 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:34:56,156 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,156 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:34:56,156 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,156 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:34:56,156 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,157 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:34:56,157 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,157 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:34:56,157 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,158 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:34:56,158 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,158 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:34:56,159 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,159 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:34:56,159 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,160 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:34:56,160 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,160 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:34:56,160 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,161 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:34:56,161 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:34:56,164 [INFO]: File saved
+2023-11-01 11:36:42,356 [INFO]: Creating System Definition
+2023-11-01 11:36:43,370 [INFO]: File saved
+2023-11-01 11:36:43,384 [INFO]: Alias folders created successfully
+2023-11-01 11:36:43,384 [INFO]: Adding aliases
+2023-11-01 11:36:43,391 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:36:43,397 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,397 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,397 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:36:43,397 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,397 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,398 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:36:43,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,398 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:36:43,398 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,399 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:36:43,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,399 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,400 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:36:43,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,400 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:36:43,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,400 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,401 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:36:43,401 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,401 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,401 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:36:43,401 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,402 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,402 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:36:43,402 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,402 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,402 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:36:43,403 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,403 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,403 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:36:43,403 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,403 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,404 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:36:43,404 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,404 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,404 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:36:43,404 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,404 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,405 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:36:43,405 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,405 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,406 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:36:43,407 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,407 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:36:43,407 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,407 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:36:43,407 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,408 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:36:43,408 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,408 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:36:43,408 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,408 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:36:43,409 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,409 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:36:43,409 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,410 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:36:43,410 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,410 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:36:43,410 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,411 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:36:43,411 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,411 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:36:43,411 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,412 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:36:43,412 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,412 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:36:43,413 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,413 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:36:43,413 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,413 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:36:43,413 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,414 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:36:43,414 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,414 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:36:43,415 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,415 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:36:43,415 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:36:43,418 [INFO]: File saved
+2023-11-01 11:37:15,012 [INFO]: Creating System Definition
+2023-11-01 11:37:15,980 [INFO]: File saved
+2023-11-01 11:37:15,994 [INFO]: Alias folders created successfully
+2023-11-01 11:37:15,994 [INFO]: Adding aliases
+2023-11-01 11:37:16,000 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:37:16,004 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,004 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,004 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:37:16,004 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,004 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,004 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:37:16,008 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,008 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,009 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:37:16,009 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,009 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,009 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:37:16,011 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,011 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,011 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:37:16,011 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,011 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,012 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:37:16,012 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,012 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,012 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:37:16,013 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,013 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,013 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:37:16,013 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,013 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,013 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:37:16,013 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,013 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,014 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:37:16,014 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,014 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,014 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:37:16,014 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,014 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,016 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:37:16,016 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,016 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,016 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:37:16,017 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,017 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,017 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:37:16,017 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,017 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,018 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:37:16,019 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,019 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:37:16,019 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,019 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:37:16,020 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,020 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:37:16,020 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,020 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:37:16,021 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,021 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:37:16,023 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,028 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:37:16,028 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,029 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:37:16,029 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,030 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:37:16,030 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,030 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:37:16,031 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,031 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:37:16,032 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,032 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:37:16,032 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,033 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:37:16,033 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,033 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:37:16,034 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,034 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:37:16,034 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,035 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:37:16,035 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,035 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:37:16,036 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,036 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:37:16,036 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:37:16,040 [INFO]: File saved
+2023-11-01 11:38:56,574 [INFO]: Creating System Definition
+2023-11-01 11:38:57,586 [INFO]: File saved
+2023-11-01 11:38:57,599 [INFO]: Alias folders created successfully
+2023-11-01 11:38:57,599 [INFO]: Adding aliases
+2023-11-01 11:38:57,606 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:38:57,611 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,611 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,612 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:38:57,612 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,612 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,613 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:38:57,613 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,613 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,613 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:38:57,614 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,614 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,614 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:38:57,614 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,614 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,615 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:38:57,615 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,615 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,615 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:38:57,616 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,616 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,617 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:38:57,618 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,618 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,619 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:38:57,620 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,620 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,620 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:38:57,620 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,621 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,621 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:38:57,622 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,622 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,622 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:38:57,623 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,623 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,623 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:38:57,623 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,623 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,624 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:38:57,624 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,624 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,625 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:38:57,625 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,625 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,627 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:38:57,627 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,628 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:38:57,629 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,629 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:38:57,630 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,630 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:38:57,630 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,631 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:38:57,631 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,631 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:38:57,632 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,632 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:38:57,633 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,633 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:38:57,633 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,633 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:38:57,634 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,634 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:38:57,634 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,634 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:38:57,635 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,635 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:38:57,635 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,636 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:38:57,636 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,636 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:38:57,636 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,637 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:38:57,637 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,637 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:38:57,637 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,638 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:38:57,639 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,639 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:38:57,640 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:38:57,643 [INFO]: File saved
+2023-11-01 11:39:37,627 [INFO]: Creating System Definition
+2023-11-01 11:39:38,589 [INFO]: File saved
+2023-11-01 11:39:38,602 [INFO]: Alias folders created successfully
+2023-11-01 11:39:38,603 [INFO]: Adding aliases
+2023-11-01 11:39:38,608 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:39:38,614 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,614 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,614 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:39:38,615 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,615 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,615 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:39:38,616 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,616 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,616 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:39:38,617 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,617 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,617 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:39:38,618 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,618 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,619 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:39:38,619 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,619 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,619 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:39:38,620 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,620 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,621 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:39:38,622 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,622 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,622 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:39:38,622 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,622 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,623 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:39:38,623 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,623 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,624 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:39:38,624 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,624 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,624 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:39:38,625 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,625 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,625 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:39:38,625 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,625 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,625 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:39:38,625 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,625 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,627 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:39:38,627 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,627 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:39:38,629 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:39:38,630 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,630 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:39:38,630 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,631 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:39:38,631 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,631 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:39:38,632 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,632 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:39:38,633 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,633 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:39:38,633 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,634 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:39:38,634 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,635 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:39:38,636 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,636 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:39:38,636 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,637 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:39:38,637 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,637 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:39:38,638 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,638 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:39:38,638 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,639 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:39:38,639 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,639 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:39:38,640 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,640 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:39:38,640 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:39:38,641 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:39:38,641 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,642 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:39:38,642 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,642 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:39:38,643 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:39:38,646 [INFO]: File saved
+2023-11-01 11:40:57,840 [INFO]: Creating System Definition
+2023-11-01 11:40:58,843 [INFO]: File saved
+2023-11-01 11:40:58,857 [INFO]: Alias folders created successfully
+2023-11-01 11:40:58,857 [INFO]: Adding aliases
+2023-11-01 11:40:58,865 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:40:58,870 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:40:58,870 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:40:58,871 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:40:58,871 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:40:58,871 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:40:58,871 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:40:58,871 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,871 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,871 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:40:58,871 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,871 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,872 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:40:58,872 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,872 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,872 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:40:58,873 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,873 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,873 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:40:58,873 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,873 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,873 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:40:58,874 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,874 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,874 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:40:58,874 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,874 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,874 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:40:58,875 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,875 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,875 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:40:58,876 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,876 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,876 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:40:58,876 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,877 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,877 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:40:58,877 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,877 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,877 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:40:58,878 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,878 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,878 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:40:58,878 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,878 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,879 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:40:58,880 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,880 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:40:58,880 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,880 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:40:58,881 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,881 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:40:58,881 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,881 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:40:58,882 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,882 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:40:58,882 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,882 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:40:58,883 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,883 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:40:58,883 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,883 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:40:58,884 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,884 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:40:58,884 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,884 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:40:58,885 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,885 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:40:58,885 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,885 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:40:58,886 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,886 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:40:58,886 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,886 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:40:58,887 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:40:58,887 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:40:58,887 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,887 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:40:58,888 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,888 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:40:58,888 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:40:58,892 [INFO]: File saved
+2023-11-01 11:42:18,473 [INFO]: Creating System Definition
+2023-11-01 11:42:19,429 [INFO]: File saved
+2023-11-01 11:42:19,443 [INFO]: Alias folders created successfully
+2023-11-01 11:42:19,444 [INFO]: Adding aliases
+2023-11-01 11:42:19,450 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:42:19,455 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,455 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,455 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:42:19,455 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,455 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,456 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:42:19,456 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,456 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,456 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:42:19,456 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,456 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,456 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:42:19,456 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,456 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,456 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:42:19,457 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,457 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,457 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:42:19,457 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,457 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,457 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:42:19,458 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,458 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,458 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:42:19,458 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,458 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,458 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:42:19,458 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,458 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,458 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:42:19,458 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,458 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,458 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:42:19,458 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,458 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,458 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:42:19,459 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,459 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,459 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:42:19,459 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,459 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,459 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:42:19,459 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,459 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:19,459 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:42:19,459 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,459 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:42:19,459 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,459 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:42:19,459 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,459 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:42:19,460 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,460 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:42:19,460 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,460 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:42:19,460 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,460 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:42:19,460 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,460 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:42:19,460 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,460 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:42:19,461 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,461 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:42:19,461 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,461 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:42:19,461 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,461 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:42:19,461 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,461 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:42:19,461 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,461 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:42:19,461 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,461 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:42:19,462 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:19,462 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:42:19,462 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,462 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:42:19,462 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,462 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:42:19,462 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:19,465 [INFO]: File saved
+2023-11-01 11:42:33,530 [INFO]: Creating System Definition
+2023-11-01 11:42:34,512 [INFO]: File saved
+2023-11-01 11:42:34,526 [INFO]: Alias folders created successfully
+2023-11-01 11:42:34,526 [INFO]: Adding aliases
+2023-11-01 11:42:34,532 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_deltatime
+2023-11-01 11:42:34,538 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,538 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,538 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: RX_time
+2023-11-01 11:42:34,538 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,538 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,538 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:42:34,538 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,538 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,538 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:42:34,538 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,538 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,538 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:42:34,539 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,539 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,539 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_deltatime
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,540 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: RX_time
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,540 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,540 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,540 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,540 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_deltatime
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,540 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: RX_time
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,540 [INFO]: ADAS aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,540 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:42:34,542 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,542 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,542 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:42:34,542 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,542 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,542 [INFO]: ECU: ECU_ADAS, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:42:34,542 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,542 [INFO]: ADAS aliases printed True Success
+2023-11-01 11:42:34,542 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_cycletime
+2023-11-01 11:42:34,542 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,542 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_enable
+2023-11-01 11:42:34,542 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,542 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: TX_kickout
+2023-11-01 11:42:34,542 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,542 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_x_g
+2023-11-01 11:42:34,542 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,542 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_CheckSum_nd
+2023-11-01 11:42:34,543 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,543 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Acc_x_g, SignalName: s_Daq_veh_Acc_Cnt_nd
+2023-11-01 11:42:34,543 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,543 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_cycletime
+2023-11-01 11:42:34,543 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,543 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_enable
+2023-11-01 11:42:34,543 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,543 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: TX_kickout
+2023-11-01 11:42:34,543 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,543 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m
+2023-11-01 11:42:34,543 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,543 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_m_Cnt_nd
+2023-11-01 11:42:34,543 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,543 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Pos_x_m, SignalName: s_Daq_veh_Pos_x_m_CheckSum_nd
+2023-11-01 11:42:34,544 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,544 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_cycletime
+2023-11-01 11:42:34,544 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,544 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_enable
+2023-11-01 11:42:34,544 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,544 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: TX_kickout
+2023-11-01 11:42:34,544 [INFO]: DAQ aliases printed False InputParameterInvalid
+2023-11-01 11:42:34,544 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph
+2023-11-01 11:42:34,545 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,545 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_CheckSum_nd
+2023-11-01 11:42:34,545 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,545 [INFO]: ECU: ECU_DAQ, Frame: Frames, CAN_Message: s_Daq_veh_Speed_x_kph, SignalName: s_Daq_veh_Speed_x_kph_Cnt_nd
+2023-11-01 11:42:34,545 [INFO]: DAQ aliases printed True Success
+2023-11-01 11:42:34,547 [INFO]: File saved
