@@ -127,6 +127,42 @@ class AliasController:
         success, self.error_out = self._system_definition_object.Root.GetAliases().AddAliasFolder(alias_folder_2,self.error)
         logging.info("Alias folders created successfully")
 
+    def GetColumnsFromMappingsFile(self,mappingsFile = "dummy_export.txt"):
+        count = 0
+        source = []
+        destination = []
+        error = ""
+        try:
+            with open(mappingsFile) as file:
+                fileContent = csv.reader(file, delimiter='\t')
+                for content in fileContent:
+                    source.append(content[0])
+                    destination.append(content[1])
+                print("Source and dest read")
+                return source, destination, error
+        except IOError as e:
+            print(e)
+            return source, destination, e
+
+    def WriteMappingsFileToSystemDefinition(self, mappingsFile):
+        '''
+        Write data from Mappings file into systemDefinition file.
+
+                Parameters:
+                        a (str): path of Mappings text file
+        '''
+        source, destination, error1 = self.GetColumnsFromMappingsFile(mappingsFile)
+        error_ = Error()
+        error_out = Error()
+        src = System.String([])
+        dest = System.String([])
+        src = source
+        dest = destination
+        functionReturn, error_out = self._system_definition_object.Root.AddChannelMappings(src,dest,error_)
+        print(error_out)
+        self.save_system_definition()
+        logging.info("Mappings file written to systemdefinitionfile")
+
     def add_aliases(self):
         """
         Add aliases using custom device references IDToCustomDeviceSection
@@ -185,9 +221,10 @@ if __name__ == "__main__":
 
     # dst = r"C:\Users\User\Documents\VeriStand Projects\Test\Test_copy.nivssdf"
     dst = r"C:\Users\User\Documents\VeriStand Projects\Veristand 2023 Q4\Veristand 2023 Q4\Close loop Control Example - ADAS\Close loop Control Example - ADAS.nivssdf_copy"
+    mapping_path = r"C:\Users\User\Documents\VeriStand Projects\Veristand 2023 Q4\Veristand 2023 Q4\Close loop Control Example - ADAS\Mappings_test.txt"
     shutil.copyfile(args.SysDef, dst)
     
     aliasObject.create_system_definition(args.SysDef)
     aliasObject.add_aliases_folder()
     aliasObject.add_aliases()
-
+    aliasObject.WriteMappingsFileToSystemDefinition(mapping_path)
