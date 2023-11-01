@@ -124,36 +124,29 @@ class AliasController:
         custom_device_vcom_id = custom_device_vcom[0]
 
 
-        ECU_Status = 0
-        ECU_ADAS = 1
-        ECU_DAQ = 2
-        FRAMES = 0 # only one list of frames per ECU
-        CAN_MESSAGE = 0
+        class ECU(Enum):
+            Status = 0
+            ADAS = 1
+            DAQ = 2
 
         #ta length av ECU,CAN_message och signals, skapa matrix, dubbel loop ECU, CAN_message -> array of lists with signals
-
-        ECU = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()
-        [print("ECU: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in ECU]
-        frames = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[ECU_ADAS].GetChildren()
-        [print("frames: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in frames]
-        #Can frame
-        CAN_message = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[ECU_ADAS].GetChildren()[FRAMES].GetChildren()
-        [print("CAN_message: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in CAN_message]
-        #Custom device channel ids
-        signals = nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[ECU_ADAS].GetChildren()[FRAMES].GetChildren()[CAN_MESSAGE].GetChildren()
-        nr_of_signals = len(signals)
-        print(nr_of_signals)
-        [print("signals: ", i.Name, "NodeID: ", i.NodeID,"BaseNodeType: ", i.BaseNodeType) for i in signals]
-        #save to matrix list or dictionary or something
-
-        #loop over
-        for sig in signals:
-            myalias = Alias(sig.Name,sig.NodePath,sig.NodePath)
-            success, error_out = self._system_definition_object.Root.GetAliases().AddAlias(myalias,error)
-            success, error_out = self._system_definition_object.Root.GetAliases().GetAliasFolderList()[1].AddAlias(myalias,error) # add to folder
-        print(success,error_out)
+        for ECU_index, ECU_value in enumerate(nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()):
+            # print("ECU insdex", ECU_index)
+            if ECU_index > 0:
+                for frames_index, frames_value in enumerate(nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[ECU_index].GetChildren()):
+                    # print("ECU insdex", ECU_index,"framendex", frames_index, "framval", frames_value.Name)
+                    for CAN_message_index, CAN_message_value in enumerate(nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[ECU_index].GetChildren()[frames_index].GetChildren()):
+                        # print("Messgae index",CAN_message_value.Name)
+                        for signals in nodeIDUtil.IDToCustomDeviceSection(custom_device_vcom_id).GetChildren()[ECU_index].GetChildren()[frames_index].GetChildren()[CAN_message_index].GetChildren():
+                            print("ECU: ", ECU_value.Name,"Frame: ",frames_index,"CAN_Message: ",CAN_message_value.Name,"Signalname: ", signals.Name)
+                            write_alias = Alias(signals.Name,signals.NodePath,signals.NodePath)
+                            if ECU_index == ECU.ADAS.value:
+                                success, error_out = self._system_definition_object.Root.GetAliases().GetAliasFolderList()[ECU_index-1].AddAlias(write_alias,error) # add to folder
+                                print("ADAS aliases printed",success,error_out)
+                            if ECU_index == ECU.DAQ.value:
+                                success, error_out = self._system_definition_object.Root.GetAliases().GetAliasFolderList()[ECU_index-1].AddAlias(write_alias,error)
+                                print("DAQ aliases printed",success,error_out)
         self.SaveSystemDefinition()
-        #går det att använda en custom_device_channel_obj i AddNewAliasByReference? stödjer den den typen?
 
 
 if __name__ == "__main__":
