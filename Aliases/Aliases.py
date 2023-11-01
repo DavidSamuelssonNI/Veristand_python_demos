@@ -127,7 +127,7 @@ class AliasController:
         success, self.error_out = self._system_definition_object.Root.GetAliases().AddAliasFolder(alias_folder_2,self.error)
         logging.info("Alias folders created successfully")
 
-    def GetColumnsFromMappingsFile(self,mappingsFile = "dummy_export.txt"):
+    def get_columns_from_mappings_file(self,mappingsFile = "dummy_export.txt"):
         count = 0
         source = []
         destination = []
@@ -144,14 +144,14 @@ class AliasController:
             print(e)
             return source, destination, e
 
-    def WriteMappingsFileToSystemDefinition(self, mappingsFile):
+    def write_mappings_file_to_systemDefinition(self, mappingsFile):
         '''
         Write data from Mappings file into systemDefinition file.
 
                 Parameters:
                         a (str): path of Mappings text file
         '''
-        source, destination, error1 = self.GetColumnsFromMappingsFile(mappingsFile)
+        source, destination, error1 = self.get_columns_from_mappings_file(mappingsFile)
         error_ = Error()
         error_out = Error()
         src = System.String([])
@@ -227,4 +227,4 @@ if __name__ == "__main__":
     aliasObject.create_system_definition(args.SysDef)
     aliasObject.add_aliases_folder()
     aliasObject.add_aliases()
-    aliasObject.WriteMappingsFileToSystemDefinition(mapping_path)
+    aliasObject.write_mappings_file_to_systemDefinition(mapping_path)
