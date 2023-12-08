@@ -46,9 +46,21 @@ MyMAPort.Configure(config, 1)
 MyMAPort.StartSimulation()
 time.sleep(2)
 
-# Write and Read operations...
+# Define a function for writing values
+def write_value(port, path, value):
+    print(f'Writing Value to {path}:')
+    print(value.Value)
+    port.Write(path, value)
+    time.sleep(1)
 
-# Example structure:
+valueFact = tb.ValueFactory
+writeVal = valueFact.CreateFloatValue(1000)
+writeVal2 = valueFact.CreateFloatValue(1)
+
+
+# Perform write operations using the defined function
+write_value(MyMAPort, "Targets/Controller/Simulation Models/Models/Engine Demo/Inports/command_EngineOn", writeVal2)
+write_value(MyMAPort, "Targets/Controller/Simulation Models/Models/Engine Demo/Inports/command_RPM", writeVal)
 
 def read_value(path):
     ReadVal = MyMAPort.Read(path)
