@@ -1,6 +1,7 @@
 import clr
 import sys
 import time
+# See figure 124, p.198 in ASAM_AE_XIL_Generic-Simulator-Interface_BS-1-4-Programmers-Guide_V2-1-0.pdf
 
 # Function to add multiple paths to sys.path
 def add_paths(*paths):
@@ -33,15 +34,16 @@ print(tbFactory)
 tb = tbFactory.CreateVendorSpecificTestbench("National Instruments", "NI VeriStand ASAM XIL Interface", "2023")
 print(tb)
 
-maportFactory = ASAM.XIL.Interfaces.Testbench.MAPort.IMAPortFactory(tb.MAPortFactory)
-print(maportFactory)
+MAPortFactory = ASAM.XIL.Interfaces.Testbench.MAPort.IMAPortFactory(tb.MAPortFactory)
+print(MAPortFactory)
 
 # Create MAPort instance
-MyMAPort = maportFactory.CreateMAPort("NI MAPort 1")
+MyMAPort = MAPortFactory.CreateMAPort("NI MAPort 1")
 print(MyMAPort)
 
 # Load configuration
 config = MyMAPort.LoadConfiguration(r"C:\Users\Public\Documents\National Instruments\NI VeriStand 2023\Examples\DotNet4.6.2\ASAM XIL\Read and Write Channel Values with Model Access Port\PortConfiguration.xml")
+
 print(config)
 
 # Configure MAPort
@@ -58,20 +60,20 @@ def write_value(port, path, value):
     port.Write(path, value)
     time.sleep(1)
 
-valueFact = tb.ValueFactory
-writeVal = valueFact.CreateFloatValue(1000)
-writeVal2 = valueFact.CreateFloatValue(1)
-
-
-# Perform write operations using the defined function
-write_value(MyMAPort, "Targets/Controller/Simulation Models/Models/Engine Demo/Inports/command_EngineOn", writeVal2)
-write_value(MyMAPort, "Targets/Controller/Simulation Models/Models/Engine Demo/Inports/command_RPM", writeVal)
-
 def read_value(path):
     ReadVal = MyMAPort.Read(path)
     retFloatVal = ReadVal
     print('Reading Value:')
     print(retFloatVal.Value)
+
+valueFact = tb.ValueFactory
+RPM_sp = valueFact.CreateFloatValue(1000)
+engine_on = valueFact.CreateFloatValue(1)
+
+
+# Perform write operations using the defined function
+write_value(MyMAPort, "Targets/Controller/Simulation Models/Models/Engine Demo/Inports/command_EngineOn", engine_on)
+write_value(MyMAPort, "Targets/Controller/Simulation Models/Models/Engine Demo/Inports/command_RPM", RPM_sp)
 
 # Usage:
 read_value("Targets/Controller/Simulation Models/Models/Engine Demo/Parameters/b11")
