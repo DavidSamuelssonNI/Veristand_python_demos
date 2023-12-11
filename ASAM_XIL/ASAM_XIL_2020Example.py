@@ -9,23 +9,28 @@ def add_paths(*paths):
 
 # Add necessary paths
 add_paths(
-    "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\ASAM.XIL.Interfaces\\v4.0_2.1.0.0__bf471dff114ae984",
-    "c:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\ASAM.XIL.Implementation.Testbench\\v4.0_2.1.0.0__a258c402a414cddb",
-    # Add other paths here...
+r"C:\Windows\Microsoft.NET\assembly\GAC_MSIL\ASAM.XIL.Interfaces\v4.0_2.1.0.0__bf471dff114ae984",
+r"c:\Windows\Microsoft.NET\assembly\GAC_MSIL\ASAM.XIL.Implementation.Testbench\v4.0_2.1.0.0__a258c402a414cddb",
+r"C:\Windows\Microsoft.NET\assembly\GAC_MSIL\ASAM.XIL.Implementation.Framework\v4.0_2.1.0.0__223668b9b1d3f17b",
+r"C:\Windows\Microsoft.NET\assembly\GAC_MSIL\ASAM.XIL.Implementation.XILSupportLibrary\v4.0_2.1.0.0__eb08b67b2f57b9b0",
+r"C:\Windows\Microsoft.NET\assembly\GAC_MSIL\ASAM.XIL.Implementation.ManifestReader\v4.0_2.1.0.0__8389d4d3a9402de1",
+r"C:\Windows\Microsoft.NET\assembly\GAC_MSIL\ASAM.XIL.Implementation.Testbench\v4.0_2.1.0.0__a258c402a414cddb",
+r"C:\Windows\Microsoft.NET\assembly\GAC_MSIL\ASAM.XIL.Implementation.TestbenchFactory\v4.0_2.1.0.0__fc9d65855b27d387"
 )
 
 # Add references
 clr.AddReference("ASAM.XIL.Interfaces")
 clr.AddReference('ASAM.XIL.Implementation.TestbenchFactory')
 
-from ASAM.XIL.Implementation.TestbenchFactory.Testbench import TestbenchFactory
+import ASAM.XIL
+from ASAM.XIL.Implementation.TestbenchFactory.Testbench import  TestbenchFactory
 
 # Create TestbenchFactory instance
 tbFactory = TestbenchFactory()
 print(tbFactory)
 
 # Create Testbench instance
-tb = tbFactory.CreateVendorSpecificTestbench("National Instruments", "NI VeriStand ASAM XIL Interface", "2020")
+tb = tbFactory.CreateVendorSpecificTestbench("National Instruments", "NI VeriStand ASAM XIL Interface", "2023")
 print(tb)
 
 maportFactory = ASAM.XIL.Interfaces.Testbench.MAPort.IMAPortFactory(tb.MAPortFactory)
@@ -36,11 +41,11 @@ MyMAPort = maportFactory.CreateMAPort("NI MAPort 1")
 print(MyMAPort)
 
 # Load configuration
-config = MyMAPort.LoadConfiguration("c:\\Users\\Public\\Documents\\National Instruments\\NI VeriStand 2020\\Examples\\Stimulus Profile\\Engine Demo\\MAPortConfig.xml")
+config = MyMAPort.LoadConfiguration(r"C:\Users\Public\Documents\National Instruments\NI VeriStand 2023\Examples\DotNet4.6.2\ASAM XIL\Read and Write Channel Values with Model Access Port\PortConfiguration.xml")
 print(config)
 
 # Configure MAPort
-MyMAPort.Configure(config, 1)
+MyMAPort.Configure(config, True)
 
 # START SIMULATION
 MyMAPort.StartSimulation()
