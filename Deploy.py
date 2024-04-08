@@ -39,7 +39,7 @@ targets = System.Array[System.String]([])
 systemDefinitionFile_retured = System.String("")
 targets_returned = System.Array[System.String]([])
 enumSystemState = SystemState.Active
-enumSystemState1 = SystemState.Idle
+
 
 #print(type(SystemState))
 errorCheck,enumSystemState,systemDefinitionFile_retured,targets_returned = factoryWorkspaceInterface.GetSystemState(enumSystemState, systemDefinitionFile, targets)
